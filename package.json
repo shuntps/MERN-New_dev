@@ -5,12 +5,12 @@
    "type": "module",
    "scripts": {
       "start": "node --env-file=.env backend/server.js",
-      "dev": "node --watch --trace-warnings --env-file=.env backend/server.js"
+      "dev": "node --watch --trace-warnings --env-file=backend/.env backend/server.js"
    },
    "keywords": [],
-   "author": "",
+   "author": "Shunt",
    "license": "ISC",
-   "description": "",
+   "description": "In development",
    "dependencies": {
       "bcryptjs": "^2.4.3",
       "cookie-parser": "^1.4.7",
